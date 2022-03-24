@@ -389,6 +389,11 @@ a {
     color: #fff;
     border-radius: 5px;
     box-shadow: 0 5px 20px #0067dc3d;
+    transition: 0.3s;
+}
+
+.real-estates-box a:hover {
+    transform: translateY(-8px);
 }
 
 .real-estates-box span {
@@ -434,11 +439,6 @@ a {
 .footer-info span {
     font-family: 'UniQAIDAR_Talabat 01', 'sans-serif';
     display: block;
-}
-
-.footer-twitter {
-    height: 300px;
-    overflow: auto;
 }
 
 .footer-contact h3 {
